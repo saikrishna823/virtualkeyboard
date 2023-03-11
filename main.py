@@ -3,7 +3,7 @@ from cvzone.HandTrackingModule import HandDetector
 import streamlit as st
 
 html='''   
-  <h2 style='background-color:tomato'>Virtual KeyBoard </h2>
+  <h2 style='background-color:tomato; text-align:center'>Virtual KeyBoard </h2>
 '''
 st.markdown(html,unsafe_allow_html=True)
 if (st.button("Click")):
